@@ -1,0 +1,23 @@
+<p>Say hi Angular</p>
+<p>Version {{name}} -> evaluate</p>
+<p>Age: {{user.age}} -> string interpolation</p>
+<p>UserName: {{user.username}} -> string interpolation</p>
+<div>
+  <input type="text" [value]="name"> --> data binding
+  <input type="text" [value]="name" (input)="name = getValue($event)"> --> data binding
+</div>
+<div>
+  <button type="button" (click)="handleCick($event)" >Click</button> -> Event binding
+</div>
+<div>
+  <p>two way binding (combine data binding and event binding)</p>
+  <div>
+    <input type="text" [(ngModel)]="name" /> -> shorthand
+  </div>
+  <div>
+    <input type="text" [ngModel]="user.username" (ngModelChange)="name = $event"/> ->full two way binding (combine data binding and event binding)
+  </div>
+
+</div>
+
+
