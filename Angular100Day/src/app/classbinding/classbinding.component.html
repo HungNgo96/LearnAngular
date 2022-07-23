@@ -1,0 +1,21 @@
+  <!-- [class.classname]
+  [class] = "array"
+  [class] = "object"{[classname: string]:boolean} -->
+<div class="container">
+  <div class="card text-start">
+    <div class="card-body">
+      <h4 class="card-title">classbinding works!</h4>
+      <p class="card-text"><button class="btn btn-danger" (click)="isDanger = !isDanger">Danger</button></p>
+      <p class="card-text"><button class="btn btn-warning" (click)="isWarning = !isWarning">Warning</button></p>
+    </div>
+  </div>
+ <div class="card text-start">
+   <div class="card-body">
+     <p class="card-text" [class]="{'text-danger':isDanger}" >Danger</p>
+     <p class="card-text" [class]="{'text-warning':isWarning}">Warning</p>
+   </div>
+ </div>
+<br>
+</div>
+
+

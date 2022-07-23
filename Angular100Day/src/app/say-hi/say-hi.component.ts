@@ -11,7 +11,7 @@ export class SayHiComponent implements OnInit {
     'username':'hungnt145',
     'age':26
   }
-  handleCick(event?: MouseEvent){
+  handleCick(event: MouseEvent){
     console.log('KeyboardEvent', event);
   }
 
