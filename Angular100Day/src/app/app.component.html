@@ -5,5 +5,23 @@
 <!-- <h3>Structural directive</h3>
 <app-structural-directive></app-structural-directive> -->
 <!-- full -->
-<app-classbinding></app-classbinding>
+<!-- <app-classbinding></app-classbinding> -->
 
+<div class="row">
+  <p>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#contentId" aria-expanded="false"
+        aria-controls="contentId" (click)="currentProgressOld = currentProgress; currentProgress = currentProgress + 10">
+        Increment
+    </button>
+  </p>
+  <p>
+    <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#contentId2" aria-expanded="false"
+        aria-controls="contentId2" (click)="currentProgressOld = currentProgress; currentProgress = currentProgress - 10">
+        Decrement
+    </button>
+  </p>
+</div>
+
+
+<app-inuput-binding [progress]="currentProgress" [backgroundColor]="currentProgressOld < currentProgress ? 'bg-primary' : 'bg-danger'"></app-inuput-binding>
+<app-inuput-binding ></app-inuput-binding>

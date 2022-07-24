@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-classbinding',
-  templateUrl: './classbinding.component.html',
-  styleUrls: ['./classbinding.component.css']
+  templateUrl: './class-binding.component.html',
+  styleUrls: ['./class-binding.component.css']
 })
 export class ClassbindingComponent implements OnInit {
 

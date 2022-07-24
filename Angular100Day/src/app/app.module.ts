@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { SayHiComponent } from './say-hi/say-hi.component';
 import { StructuralDirectiveComponent } from './structural-directive/structural-directive.component';
-import { ClassbindingComponent } from './classbinding/classbinding.component';
+import { ClassbindingComponent } from './class-binding/class-binding.component';
+import { InuputBindingComponent } from './inuput-binding/inuput-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent,HelloComponent, SayHiComponent, StructuralDirectiveComponent, ClassbindingComponent
+    AppComponent,HelloComponent, SayHiComponent, StructuralDirectiveComponent, ClassbindingComponent, InuputBindingComponent
   ],
   imports: [
     BrowserModule,

@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basics';
+  currentProgress = 10;
+  currentProgressOld = 0;
 }
