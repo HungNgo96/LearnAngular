@@ -8,10 +8,14 @@ import { SayHiComponent } from './say-hi/say-hi.component';
 import { StructuralDirectiveComponent } from './structural-directive/structural-directive.component';
 import { ClassbindingComponent } from './class-binding/class-binding.component';
 import { InuputBindingComponent } from './inuput-binding/inuput-binding.component';
+import { OutputBindingComponent } from './output-binding/output-binding.component';
+import { AuthorDetailComponent } from './Author/author-detail.component';
+import { AuthorListComponent } from './Author/author-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent,HelloComponent, SayHiComponent, StructuralDirectiveComponent, ClassbindingComponent, InuputBindingComponent
+    AppComponent,HelloComponent, SayHiComponent, StructuralDirectiveComponent, ClassbindingComponent, InuputBindingComponent, OutputBindingComponent
+  , AuthorDetailComponent, AuthorListComponent
   ],
   imports: [
     BrowserModule,
