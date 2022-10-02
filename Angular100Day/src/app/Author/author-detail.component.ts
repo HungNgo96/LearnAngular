@@ -33,5 +33,7 @@ export class AuthorDetailComponent implements OnInit{
   {
 
   }
+  constructor(){
 
+  }
 }

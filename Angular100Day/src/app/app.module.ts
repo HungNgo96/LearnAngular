@@ -11,11 +11,13 @@ import { InuputBindingComponent } from './inuput-binding/inuput-binding.componen
 import { OutputBindingComponent } from './output-binding/output-binding.component';
 import { AuthorDetailComponent } from './Author/author-detail.component';
 import { AuthorListComponent } from './Author/author-list.component';
+import { TypeScriptComponent } from './type-script/type-script.component';
+import { FlexContainerComponent } from './flex-container/flex-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,HelloComponent, SayHiComponent, StructuralDirectiveComponent, ClassbindingComponent, InuputBindingComponent, OutputBindingComponent
-  , AuthorDetailComponent, AuthorListComponent
+  , AuthorDetailComponent, AuthorListComponent, TypeScriptComponent, FlexContainerComponent
   ],
   imports: [
     BrowserModule,

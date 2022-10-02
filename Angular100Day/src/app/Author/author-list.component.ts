@@ -34,6 +34,11 @@ export class AuthorListComponent implements OnInit {
   authors = authorsModel;
   currentAuthor = this.authors[0];
   name = 'Angular' + VERSION.major;
+
+  constructor(){
+
+  }
+
   onSelected(selectedAuthor: Author) {
     this.currentAuthor = selectedAuthor;
   }
